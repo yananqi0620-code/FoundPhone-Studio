@@ -270,12 +270,254 @@
     ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "foundphone-photo-01",
+        "title": "4f7777d51a61d4a1fb8df2b3f5184e79",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/4f7777d51a61d4a1fb8df2b3f5184e79.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-02",
+        "title": "DSCF0009",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/DSCF0009.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-03",
+        "title": "DSCF0048(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/DSCF0048(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-04",
+        "title": "DSCF0049(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/DSCF0049(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-05",
+        "title": "DSCF0050(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/DSCF0050(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-06",
+        "title": "DSCF0053",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/DSCF0053.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-07",
+        "title": "IMG_1485",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_1485.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-08",
+        "title": "IMG_1487(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_1487(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-09",
+        "title": "IMG_2811",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_2811.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-10",
+        "title": "IMG_2814",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_2814.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-11",
+        "title": "IMG_2818",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_2818.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-12",
+        "title": "IMG_3714",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_3714.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-13",
+        "title": "IMG_5169",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_5169.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-14",
+        "title": "IMG_7462",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_7462.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-15",
+        "title": "IMG_7467",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_7467.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-16",
+        "title": "IMG_7988",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_7988.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-17",
+        "title": "IMG_7989",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_7989.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-18",
+        "title": "IMG_7994",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_7994.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-19",
+        "title": "IMG_8002(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8002(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-20",
+        "title": "IMG_8006(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8006(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-21",
+        "title": "IMG_8031(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8031(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-22",
+        "title": "IMG_8035(1)",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8035(1).jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-23",
+        "title": "IMG_8409",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8409.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-24",
+        "title": "IMG_8416",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8416.jpeg",
+        "folder": "foundphone"
+      },
+      {
+        "id": "foundphone-photo-25",
+        "title": "IMG_8419",
+        "body": "",
+        "sender": "机主",
+        "time": "2026-10-25 09:41",
+        "kind": "image",
+        "media": "assets/app-icons/foundphone-photos/IMG_8419.jpeg",
+        "folder": "foundphone"
       }
     ],
     "camera": [
