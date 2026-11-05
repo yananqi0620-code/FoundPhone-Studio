@@ -196,9 +196,13 @@ export function validateWork(input: unknown): Work {
   return workSchema.parse(input);
 }
 export function safeMedia(value: string) {
-  return /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(
-    value,
-  )
-    ? value
-    : "";
+  const embedded =
+    /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(
+      value,
+    );
+  const storyPhoto =
+    /^assets\/app-icons\/foundphone-photos\/[A-Za-z0-9_.() -]+\.(?:png|jpe?g|webp|gif)$/i.test(
+      value,
+    );
+  return embedded || storyPhoto ? value : "";
 }
