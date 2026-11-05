@@ -741,3 +741,12 @@
   background: #fafafa;
   color: #ffadb7;
 }
+
+
+/* User-selected lock-screen wallpaper asset. */
+.ios18 .wallpaper-custom-sakura {
+  background-image: url("../../assets/wallpapers/302185.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
