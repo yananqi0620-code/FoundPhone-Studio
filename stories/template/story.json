@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 13,
+  "revision": 14,
   "phone": {
     "owner": "机主",
     "date": "2026-11-07",
@@ -98,139 +98,6 @@
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        },
-        {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
-        }
-      ]
-    },
-    {
       "id": "wechat-chat-brother",
       "app": "wechat",
       "title": "老哥",
@@ -305,26 +172,8 @@
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
+    "phone": [],
+    "contacts": [],
     "photos": [
       {
         "id": "foundphone-photo-01",
@@ -657,26 +506,8 @@
         "folder": "foundphone"
       }
     ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
+    "camera": [],
+    "safari": [],
     "notes": [
       {
         "id": "note-brother-wuxi-food-review",
@@ -689,136 +520,19 @@
         "richText": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"惠山豆腐花&梅菜饼\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4365.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"嗯！味道绝了👍\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4370.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"油赞子\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4372.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"味道非常好👍\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4371.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"青稞烤馍&桂花糕\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4373.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"吃饱了 逛一圈回来再吃😋\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4374.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"黑糖姜母茶\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4369.jpeg\"}},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"喝出了外婆的味道😆\"}]},{\"type\":\"image\",\"attrs\":{\"src\":\"assets/app-icons/foundphone-photos/IMG_4375.jpeg\"}}]}"
       }
     ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
+    "calendar": [],
+    "mail": [],
+    "clock": [],
+    "reminders": [],
+    "files": [],
+    "music": [],
+    "maps": [],
+    "weather": [],
+    "wallet": [],
+    "health": [],
+    "find": [],
+    "calculator": [],
+    "settings": [],
     "weibo": [
       {
         "id": "junhui-birthday-post",
@@ -837,156 +551,21 @@
         "avatar": "data:image/webp;base64,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"
       }
     ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
+    "redbook": [],
+    "douyin": [],
+    "bilibili": [],
+    "alipay": [],
+    "taobao": [],
+    "netease": [],
+    "delivery": [],
+    "forum": [],
+    "instagram": [],
+    "tiktok": [],
+    "twitter": [],
+    "youtube": [],
+    "snapchat": [],
+    "facebook": [],
+    "reddit": [],
     "spotify": [
       {
         "id": "junhui-track-leiqiao",
@@ -1022,91 +601,10 @@
         "meta": {}
       }
     ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
-      }
-    ]
+    "netflix": [],
+    "pinterest": [],
+    "threads": [],
+    "appstore": []
   },
   "variables": {},
   "events": [],
