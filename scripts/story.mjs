@@ -103,6 +103,7 @@ try {
   } else if (mode === "build") {
     await mkdir("public", { recursive: true });
     await cp("assets/app-icons/foundphone-photos", "public/assets/app-icons/foundphone-photos", { recursive: true });
+    await cp("assets/music", "public/assets/music", { recursive: true });
     await writeFile("public/work.json", JSON.stringify(work, null, 2) + "\n");
     const blank = compileStory(
       JSON.parse(await readFile("stories/blank/story.json", "utf8")),
