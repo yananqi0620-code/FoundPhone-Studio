@@ -57,7 +57,7 @@ export function defaultLayout(input: Work): DeviceLayout {
   return {
     version: 1,
     workId: w.id,
-    previewLayoutRevision: w.id === "ui-test-phone-v2" ? 1 : 0,
+    previewLayoutRevision: w.id === "ui-test-phone-v2" ? 2 : 0,
     apps: structuredClone(w.apps)
       .sort((a, b) => (a.id === "appstore" ? -1 : b.id === "appstore" ? 1 : 0))
       .map((a) =>
@@ -95,29 +95,25 @@ export function validateLayout(raw: unknown, input: Work) {
     store.folder = "";
     store.dock = false;
   }
-  if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 1) {
-    const visibleApps = ["wechat", "douyin"];
+  if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 2) {
+    const visibleApps = ["wechat", "weibo", "photos", "notes", "spotify"];
     for (const app of layout.apps) {
-      if (
-        visibleApps.includes(app.id) ||
-        ["中国", "国内", "国际", "海外", "国内App", "国际App"].includes(
-          app.folder,
-        )
-      ) {
-        app.folder = "";
-        delete layout.positions[app.id];
-        if (visibleApps.includes(app.id)) {
-          app.installed = true;
-          app.visible = true;
-          app.dock = false;
-        }
+      app.folder = "";
+      app.dock = false;
+      delete layout.positions[app.id];
+      if (visibleApps.includes(app.id)) {
+        app.installed = true;
+        app.visible = true;
+      } else if (app.id === "phone") {
+        app.installed = true;
+        app.visible = false;
+      } else {
+        app.installed = false;
+        app.visible = false;
       }
     }
-    layout.order = [
-      ...visibleApps,
-      ...layout.order.filter((id) => !visibleApps.includes(id)),
-    ];
-    layout.previewLayoutRevision = 1;
+    layout.order = visibleApps;
+    layout.previewLayoutRevision = 2;
   }
   const entries = homeEntries(layout),
     packed = packHome(entries, layout.positions);
