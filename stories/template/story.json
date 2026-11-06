@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 15,
+  "revision": 16,
   "phone": {
     "owner": "机主",
     "date": "2026-11-07",
@@ -432,86 +432,6 @@
         "time": "2026-10-25 09:41",
         "kind": "image",
         "media": "assets/app-icons/foundphone-photos/IMG_8419.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4365-jpeg",
-        "title": "IMG_4365",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4365.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4370-jpeg",
-        "title": "IMG_4370",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4370.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4372-jpeg",
-        "title": "IMG_4372",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4372.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4371-jpeg",
-        "title": "IMG_4371",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4371.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4373-jpeg",
-        "title": "IMG_4373",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4373.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4374-jpeg",
-        "title": "IMG_4374",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4374.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4369-jpeg",
-        "title": "IMG_4369",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4369.jpeg",
-        "folder": "foundphone"
-      },
-      {
-        "id": "foundphone-wuxi-img-4375-jpeg",
-        "title": "IMG_4375",
-        "body": "",
-        "sender": "机主",
-        "time": "2026-11-07 00:00",
-        "kind": "image",
-        "media": "assets/app-icons/foundphone-photos/IMG_4375.jpeg",
         "folder": "foundphone"
       }
     ],
