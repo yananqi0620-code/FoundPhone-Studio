@@ -201,7 +201,7 @@ export function safeMedia(value: string) {
       value,
     );
   const storyPhoto =
-    /^assets\/app-icons\/foundphone-photos\/[A-Za-z0-9_.() -]+\.(?:png|jpe?g|webp|gif)$/i.test(
+    /^assets\/app-icons\/foundphone-photos\/[A-Za-z0-9_.() -]+\.(?:png|jpe?g|webp|gif|mp4|webm)$/i.test(
       value,
     );
   const storyAudio =
