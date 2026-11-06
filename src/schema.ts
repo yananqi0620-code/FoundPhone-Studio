@@ -204,5 +204,7 @@ export function safeMedia(value: string) {
     /^assets\/app-icons\/foundphone-photos\/[A-Za-z0-9_.() -]+\.(?:png|jpe?g|webp|gif)$/i.test(
       value,
     );
-  return embedded || storyPhoto ? value : "";
+  const storyAudio =
+    /^assets\/music\/[^/]+\.(?:mp3|wav|ogg|m4a|aac)$/i.test(value);
+  return embedded || storyPhoto || storyAudio ? value : "";
 }
