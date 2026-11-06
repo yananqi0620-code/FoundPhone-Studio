@@ -44,7 +44,7 @@ export function ensureAppStore(work: Work): Work {
             id: "appstore",
             name: "App Store",
             installed: true,
-            visible: true,
+            visible: false,
             dock: false,
             folder: "",
             icon: "",
@@ -62,7 +62,7 @@ export function defaultLayout(input: Work): DeviceLayout {
       .sort((a, b) => (a.id === "appstore" ? -1 : b.id === "appstore" ? 1 : 0))
       .map((a) =>
         a.id === "appstore"
-          ? { ...a, installed: true, visible: true, folder: "", dock: false }
+          ? { ...a, installed: true, visible: false, folder: "", dock: false }
           : a,
       ),
     widgets: [],
@@ -91,8 +91,9 @@ export function validateLayout(raw: unknown, input: Work) {
   const store = layout.apps.find((a) => a.id === "appstore");
   if (store) {
     store.installed = true;
-    store.visible = true;
+    store.visible = false;
     store.folder = "";
+    store.dock = false;
   }
   if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 1) {
     const visibleApps = ["wechat", "douyin"];
