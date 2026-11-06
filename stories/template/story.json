@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 4,
+  "revision": 5,
   "phone": {
     "owner": "机主",
     "date": "2026-11-07",
@@ -850,11 +850,36 @@
     ],
     "spotify": [
       {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
+        "id": "junhui-track-leiqiao",
+        "title": "泪桥",
+        "body": "",
+        "time": "2026-11-06",
+        "sender": "文俊辉",
+        "kind": "audio",
+        "media": "assets/music/1_1_leiqiao_-9_key_5055_(Vocals)_(No Noise).wav",
+        "folder": "文俊辉",
+        "meta": {}
+      },
+      {
+        "id": "junhui-track-kan-de-zui-yuan-de-difang",
+        "title": "看得最远的地方",
+        "body": "",
+        "time": "2026-11-06",
+        "sender": "文俊辉",
+        "kind": "audio",
+        "media": "assets/music/stuic-szedb.mp3",
+        "folder": "文俊辉",
+        "meta": {}
+      },
+      {
+        "id": "junhui-track-a-journey",
+        "title": "A Journey",
+        "body": "",
+        "time": "2026-11-06",
+        "sender": "文俊辉",
+        "kind": "audio",
+        "media": "assets/music/❤️.wav",
+        "folder": "文俊辉",
         "meta": {}
       }
     ],
