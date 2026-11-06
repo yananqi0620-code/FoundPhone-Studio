@@ -98,9 +98,16 @@ export function validateLayout(raw: unknown, input: Work) {
   if (w.id === "ui-test-phone-v2" && layout.previewLayoutRevision < 2) {
     const visibleApps = ["wechat", "weibo", "photos", "notes", "spotify"];
     for (const app of layout.apps) {
-      app.folder = "";
+      if (
+        visibleApps.includes(app.id) ||
+        ["中国", "国内", "国际", "海外", "国内App", "国际App"].includes(
+          app.folder,
+        )
+      ) {
+        app.folder = "";
+        delete layout.positions[app.id];
+      }
       app.dock = false;
-      delete layout.positions[app.id];
       if (visibleApps.includes(app.id)) {
         app.installed = true;
         app.visible = true;
