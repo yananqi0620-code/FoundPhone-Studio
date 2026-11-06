@@ -57,13 +57,15 @@ function Avatar({
   round?: boolean;
   src?: string;
 }) {
+  const media = safeMedia(src);
+  const imageSrc = media
+    ? media.startsWith("data:")
+      ? media
+      : `${import.meta.env.BASE_URL}${media}`
+    : "";
   return (
     <span className={`skin-avatar ${round ? "round" : ""}`}>
-      {safeMedia(src)?.startsWith("data:image/") ? (
-        <img src={safeMedia(src)} alt="" />
-      ) : (
-        name.slice(0, 1)
-      )}
+      {imageSrc ? <img src={imageSrc} alt="" /> : name.slice(0, 1)}
     </span>
   );
 }
