@@ -3133,6 +3133,15 @@ label {
 .rich-body p {
   margin: 10px 0;
 }
+.rich-body .rich-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
 .rich-body ul,
 .rich-body ol {
   padding-left: 21px;
