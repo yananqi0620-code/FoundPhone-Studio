@@ -206,5 +206,9 @@ export function safeMedia(value: string) {
     );
   const storyAudio =
     /^assets\/music\/[^/]+\.(?:mp3|wav|ogg|m4a|aac)$/i.test(value);
-  return embedded || storyPhoto || storyAudio ? value : "";
+  const storyAvatar =
+    /^assets\/wechat-avatars\/[A-Za-z0-9_.() -]+\.(?:png|jpe?g|webp|gif)$/i.test(
+      value,
+    );
+  return embedded || storyPhoto || storyAudio || storyAvatar ? value : "";
 }
