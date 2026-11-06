@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "机主",
     "date": "2026-11-07",
@@ -627,11 +627,12 @@
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
+        "id": "note-brother-wuxi-food-review",
+        "title": "老哥无锡逛吃测评",
+        "body": "惠山豆腐花&梅菜饼\n［图一］\n嗯！味道绝了👍\n［图二］\n\n油赞子\n［图三］\n味道非常好👍\n［图四］\n\n青稞烤馍&桂花糕\n［图五］\n吃饱了 逛一圈回来再吃😋\n［图六］\n\n黑糖姜母茶\n［图七］\n喝出了外婆的味道😆\n［图八］",
+        "sender": "机主",
+        "time": "2026-11-07 00:00",
+        "kind": "note",
         "meta": {}
       }
     ],
