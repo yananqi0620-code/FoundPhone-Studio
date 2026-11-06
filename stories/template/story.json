@@ -3,7 +3,7 @@
   "id": "ui-test-phone-v2",
   "title": "捡手机",
   "description": "仅用于界面测试，不含剧情",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "机主",
     "date": "2026-11-07",
@@ -94,6 +94,34 @@
       "name": "测试联系人",
       "phone": "",
       "bio": "这是一条测试内容。"
+    },
+    {
+      "id": "wechat-angeqi",
+      "name": "安琪6.20",
+      "phone": "",
+      "avatar": "assets/wechat-avatars/IMG_4346.jpeg",
+      "bio": ""
+    },
+    {
+      "id": "wechat-brother",
+      "name": "老哥",
+      "phone": "",
+      "avatar": "assets/wechat-avatars/279524.jpeg",
+      "bio": ""
+    },
+    {
+      "id": "wechat-mom",
+      "name": "老妈",
+      "phone": "",
+      "avatar": "assets/wechat-avatars/IMG_4344.jpeg",
+      "bio": ""
+    },
+    {
+      "id": "wechat-dad",
+      "name": "爹",
+      "phone": "",
+      "avatar": "assets/wechat-avatars/IMG_4345.jpeg",
+      "bio": ""
     }
   ],
   "chats": [
@@ -108,22 +136,6 @@
       "messages": [
         {
           "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
           "body": "这是一条测试消息。",
           "senderId": "test-contact"
         }
@@ -243,6 +255,62 @@
           "id": "test-reply-kakao",
           "body": "这是一条测试回复。",
           "senderId": "owner"
+        }
+      ]
+    },
+    {
+      "id": "wechat-chat-brother",
+      "app": "wechat",
+      "title": "老哥",
+      "participants": [
+        "owner",
+        "wechat-brother"
+      ],
+      "messages": [
+        {
+          "id": "wechat-brother-birthday",
+          "body": "자기야 生日快乐！！！！🥳\n要一直开心快乐呀～～～要吃好多好多好吃的东西😋去好多好多好玩的地方！！！\n新的一岁也请多多指教啦～～～\n生日粗卡粗卡！！！😆👏🎂❤️",
+          "senderId": "wechat-brother",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-brother-video",
+          "body": "视频",
+          "senderId": "wechat-brother",
+          "kind": "video",
+          "media": "assets/app-icons/foundphone-photos/167.MP4"
+        }
+      ]
+    },
+    {
+      "id": "wechat-chat-mom",
+      "app": "wechat",
+      "title": "老妈",
+      "participants": [
+        "owner",
+        "wechat-mom"
+      ],
+      "messages": [
+        {
+          "id": "wechat-mom-birthday",
+          "body": "生日快乐🎂，多吃点好吃的，注意身体，爱你。",
+          "senderId": "wechat-mom"
+        }
+      ]
+    },
+    {
+      "id": "wechat-chat-dad",
+      "app": "wechat",
+      "title": "爹",
+      "participants": [
+        "owner",
+        "wechat-dad"
+      ],
+      "messages": [
+        {
+          "id": "wechat-dad-birthday",
+          "body": "生日快乐🎂🎊 无锡好玩么，发点照片看看",
+          "senderId": "wechat-dad"
         }
       ]
     }
