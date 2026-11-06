@@ -34,7 +34,25 @@ export const useStudio = create<Store>((set, get) => ({
       let works = (await db.works.orderBy("updatedAt").reverse().toArray()).map(
         validateWork,
       );
-      if (!works.length) {
+      let bundled: Work | undefined;
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}work.json`, {
+          cache: "no-store",
+        });
+        if (response.ok) bundled = validateWork(await response.json());
+      } catch {
+        // Keep locally saved works available when the bundled story is offline.
+      }
+      if (bundled) {
+        const saved = works.find((w) => w.id === bundled!.id);
+        const selected =
+          saved && saved.updatedAt > bundled.updatedAt ? saved : bundled;
+        if (selected === bundled) await db.works.put(bundled);
+        works = [
+          selected,
+          ...works.filter((w) => w.id !== selected.id),
+        ];
+      } else if (!works.length) {
         const w = createWork();
         await db.works.put(w);
         works = [w];
