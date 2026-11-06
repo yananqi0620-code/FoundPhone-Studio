@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { safeMedia } from "./schema";
 type RichNode = {
   type?: string;
   text?: string;
@@ -9,6 +10,7 @@ type RichNode = {
 const allowed = new Set([
   "doc",
   "text",
+  "image",
   "paragraph",
   "heading",
   "bulletList",
@@ -23,6 +25,12 @@ function cleanNode(value: unknown, depth = 0): RichNode | undefined {
   if (depth > 12 || !value || typeof value !== "object") return;
   const n = value as Record<string, unknown>;
   if (typeof n.type !== "string" || !allowed.has(n.type)) return;
+  if (n.type === "image") {
+    const src = typeof (n.attrs as Record<string, unknown> | undefined)?.src === "string"
+      ? safeMedia((n.attrs as Record<string, string>).src)
+      : "";
+    return src ? { type: "image", attrs: { src } } : undefined;
+  }
   return {
     type: n.type,
     text: typeof n.text === "string" ? n.text : undefined,
@@ -65,6 +73,10 @@ export function RichText({
   if (!n) return <p className="detail-body">{fallback}</p>;
   const render = (n: RichNode, depth: number, key: number): ReactNode => {
     if (depth > 12) return null;
+    if (n.type === "image") {
+      const src = typeof n.attrs?.src === "string" ? safeMedia(n.attrs.src) : "";
+      return src ? <img key={key} className="rich-image" src={src} alt="" loading="lazy" decoding="async" /> : null;
+    }
     if (n.type === "text") {
       let text: ReactNode = n.text ?? "";
       for (const m of n.marks ?? []) {
